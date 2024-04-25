@@ -4,10 +4,10 @@
 \usepackage{graphicx} % Used for inserting images
 \usepackage{lipsum} % Used for generating placeholder text
 \usepackage{ctex} % Imported the ctex package to support Chinese
-\usepackage{titlesec} % Imported the titlesec package for customizing title styles
-\usepackage{fontspec} % Used for setting Chinese fonts
+% \usepackage{titlesec} % Imported the titlesec package for customizing title styles
+% \usepackage{fontspec} % Used for setting Chinese fonts
 
-\setmainfont{SimSun} % Set the Chinese font to SimSun (宋体 system font)
+% \setmainfont{SimSun} % Set the Chinese font to SimSun (宋体 system font)
 
 \usepackage{listings}
 \usepackage{color}
@@ -48,6 +48,93 @@ TODO:对应作业要求中的关键问题
 \section{开发计划}
 \subsection{项目时间表}
 \section{功能特点}
+\subsection{登录和用户管理}
+\subsubsection{用户注册}
+\begin{itemize}
+        \item 用户信息收集： 在注册页面，要求用户提供必要的个人信息，如姓名、学号、邮箱地址等。确保用户信息的完整性和准确性。
+        \item 用户角色选择： 用户在注册时选择其角色，通常分为学生、教师和管理员。每个角色有不同的权限。
+        \item 密码安全： 强制要求用户创建强密码，包括字母、数字和特殊字符，并确保密码加密存储。
+        \item 邮箱验证： 发送验证邮件到提供的邮箱地址，包括一个唯一的确认链接。用户需要点击确认链接以完成注册。
+        \item 防止重复注册： 确保同一邮箱地址或学号不能多次注册。   
+\end{itemize}
+
+\subsubsection{用户登录}
+\begin{itemize}
+        \item 用户名密码登录： 用户输入已注册的邮箱地址和密码，系统验证这些信息后允许用户登录。
+        \item 记住我： 提供“记住我”选项，以便用户在下次访问时免除重新登录。
+        \item 单点登录（可选）： 如果系统需要与其他系统集成，可以实施单点登录（SSO）以简化用户登录流程。 
+\end{itemize}
+\subsubsection{角色权限管理}
+\begin{itemize}
+        \item 角色定义： 定义不同角色的权限，如学生、教师和管理员。每个角色有不同级别的访问和操作权限。
+        \item 审计日志： 记录用户的登录和操作，以便审计角色权限的使用情况。
+        \item 动态权限管理： 允许管理员根据需要更改角色权限，以反映实际情况。
+        \item 用户角色切换（如果适用）： 如果用户具有多个角色，例如一个教师也可以是学生，实现用户角色切换功能。
+        \item 密码重置和账户锁定： 提供密码重置功能，以及在多次登录失败后锁定账户以提高安全性。
+        \item 权限分配： 将权限与角色关联，以便更轻松地为用户分配权限。 
+        \item 角色验证： 在系统的各个部分使用角色验证，确保用户只能执行其具有权限的操作。
+\end{itemize}
+\subsection{课程管理}
+\subsubsection{课程导入}
+\begin{itemize}
+        \item 灵活性： 系统应具有足够的灵活性，能够处理不同类型的课程,例如公选课,必修课,通识课等等
+        \item 数据验证： 在课程导入过程中，进行数据验证，确保课程信息的正确性和完整性。例如，检查每个课程是否包含课程描述、老师等必要信息
+\end{itemize}
+\subsubsection{课程调整和停止}
+\begin{itemize}
+        \item 灵活性: 系统应具有足够的灵活性,可以在允许范围内让教师对课程进行任意修改
+        \item 兜底限制: 应做好对课程修改的兜底限制,例如: 时间不能调制周末等
+\end{itemize}
+
+\subsection{选课策略设置}
+\subsubsection{定制化课程参数设置}
+\begin{itemize}
+        \item 课时设置: 允许管理员或教师根据课程的需要来设定课程的课时
+        \item 考试方式设置： 允许教师根据课程本身的特性和需求来设定课程考核的形式
+        \item 选课方式设置: 允许教师根据课程特性设定课程的选课方式,例如:指选,抽签等
+\end{itemize}
+\subsubsection{学生名单导入}
+\begin{itemize}
+        \item 数据格式： 允许管理员或教师导入学生名单数据，数据格式可以是常见的 Excel 格式或CSV 格式。
+        \item 数据验证： 在导入过程中，进行数据验证，以确保学生名单数据的准确性。例如，检查每个学生是否包括必要的信息，如姓名、学号、班级等。
+        \item 批量导入： 支持批量导入，以便一次性导入多个学生名单，减少手动输入的工作量。
+        \item 重复数据处理： 处理可能存在的重复数据或重复学生记录，以避免重复导入。
+\end{itemize}
+
+\subsection{选课流程}
+\subsubsection{自主课程选择}
+\begin{itemize}
+        \item 选课时间设定: 管理员可以为不同类型的课程设定不同的选课时间
+        \item 课程呈现： 在选课开始后，系统应呈现课程列表给同学，以便他们选择课程。
+        \item 课程信息预览： 提供教师和学生查看课程信息的功能，以确保选择时可以看见课程的内容。
+\end{itemize}
+ 
+\subsubsection{选课过程支持}
+\begin{itemize}
+        \item 备选课程展示： 学生应可以对课程加标注，学生可以进行备选课程列表快速选择
+        \item 汇总页面： 系统应提供一个汇总页面，显示学生所有选择的课程。这样考生可以了解自己的选课情况。
+        \item 超链接导航： 系统应提供超链接，允许学生在不同类型课程之间轻松跳转，并返回到汇总页面。
+\end{itemize}
+
+\subsubsection{防外挂功能}
+\begin{itemize}
+        \item 反脚本技术: 系统应该做好对学生操作的监控与限流,防止学生使用脚本选课
+        \item 账号锁定： 如果选课期间出现可疑指标，管理员可以远程锁定学生账户，防止进一步作弊。
+\end{itemize} 
+
+\subsection{智能化体验}
+\subsubsection{智能调配}
+\begin{itemize}
+\item 课程冲突检测： 系统可以自动检测学生所选择的课程是否存在时间上的冲突，并提供解决方案，如调整课程时间或寻找替代课程。
+\item 课程平衡建议： 基于学生的学业规划和课程安排，系统可以智能地建议学生选择一定比例的核心课程、选修课程和兴趣课程，以保持学业平衡。
+\end{itemize}
+
+\subsubsection{实时反馈}
+\begin{itemize}
+\item 选课结果预测： 系统可以根据学生的选课情况和历史数据，预测学生最终选择的课程，并提供相应的反馈和建议。
+\item 选课建议优化： 系统可以根据学生的反馈和实际选课结果，不断优化推荐算法，提供更加准确和个性化的选课建议。
+\end{itemize}
+
 \section{用户体验和界面设计}
 \section{测试和质量保证}
 \subsection{测试计划}
