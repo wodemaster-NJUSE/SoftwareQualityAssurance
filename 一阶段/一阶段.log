@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.7)  25 APR 2024 11:02
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.7)  26 APR 2024 11:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -453,10 +453,7 @@ LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <10.53937> not available
 \tf@toc=\write3
 \openout3 = `一阶段.toc'.
 
- [2] [3]
-Overfull \vbox (312.2977pt too high) has occurred while \output is active []
-
- [4] (./一阶段.aux)
+ [2] [3] [4] [5] [6] [7] [8] [9] [10] (./一阶段.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.41063pt have occurred.
@@ -466,12 +463,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 9501 strings out of 476683
- 242740 string characters out of 5807576
- 1854012 words of memory out of 5000000
- 29617 multiletter control sequences out of 15000+600000
+ 9582 strings out of 476683
+ 248151 string characters out of 5807576
+ 1860012 words of memory out of 5000000
+ 29698 multiletter control sequences out of 15000+600000
  519173 words of font info for 82 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  89i,6n,97p,420b,274s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 一阶段.pdf (4 pages).
+Output written on 一阶段.pdf (10 pages).
