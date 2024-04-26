@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.7)  26 APR 2024 12:02
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.7)  26 APR 2024 20:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -326,8 +326,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box59
 \@float@everytoks=\toks24
 \@floatcapt=\box60
-)
-No file 一阶段.aux.
+) (./一阶段.aux)
 \openout1 = `一阶段.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
@@ -403,20 +402,30 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 20.
 \c@lstlisting=\count314
-No file 一阶段.toc.
-\tf@toc=\write3
-\openout3 = `一阶段.toc'.
+ (./一阶段.toc
+
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <10.53937> not available
+(Font)              size <10.95> substituted on input line 3.
 
 [1
 
-] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] (./一阶段.aux) ) 
+])
+\tf@toc=\write3
+\openout3 = `一阶段.toc'.
+
+ [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] (./一阶段.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.41063pt have occurred.
+
+ ) 
 Here is how much of TeX's memory you used:
- 9281 strings out of 476683
- 245079 string characters out of 5807576
- 1860012 words of memory out of 5000000
- 29409 multiletter control sequences out of 15000+600000
- 517555 words of font info for 73 fonts, out of 8000000 for 9000
+ 9298 strings out of 476683
+ 245408 string characters out of 5807576
+ 1861012 words of memory out of 5000000
+ 29418 multiletter control sequences out of 15000+600000
+ 519165 words of font info for 81 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  89i,6n,97p,338b,274s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 一阶段.pdf (12 pages).
+Output written on 一阶段.pdf (14 pages).
