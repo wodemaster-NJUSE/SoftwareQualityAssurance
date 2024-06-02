@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.7)  27 MAY 2024 11:55
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.7)  2 JUN 2024 22:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -404,24 +404,24 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 \c@lstlisting=\count314
  [1
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 54--58
+] [2] [3] [4] [5]
+Underfull \hbox (badness 10000) in paragraph at lines 190--194
 
  []
 
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 59--61
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 195--197
 
  []
 
-[3] [4] [5] [6] [7] [8] (./课堂练习.aux) ) 
+[7] [8] [9] [10] [11] [12] (./课堂练习.aux) ) 
 Here is how much of TeX's memory you used:
- 9261 strings out of 476683
- 243886 string characters out of 5807576
- 1862012 words of memory out of 5000000
- 29388 multiletter control sequences out of 15000+600000
+ 9273 strings out of 476683
+ 244698 string characters out of 5807576
+ 1863012 words of memory out of 5000000
+ 29400 multiletter control sequences out of 15000+600000
  517555 words of font info for 73 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  89i,6n,97p,339b,299s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 课堂练习.pdf (8 pages).
+Output written on 课堂练习.pdf (12 pages).
