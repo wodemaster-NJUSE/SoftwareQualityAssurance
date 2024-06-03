@@ -1,0 +1,88 @@
+\contentsline {section}{\numberline {1}项目概述}{4}{}%
+\contentsline {subsection}{\numberline {1.1}项目名称}{4}{}%
+\contentsline {subsection}{\numberline {1.2}项目目标}{4}{}%
+\contentsline {subsection}{\numberline {1.3}项目团队}{4}{}%
+\contentsline {subsection}{\numberline {1.4}项目背景}{4}{}%
+\contentsline {section}{\numberline {2}关键问题}{4}{}%
+\contentsline {subsection}{\numberline {2.1}项目吸引力问题}{4}{}%
+\contentsline {subsection}{\numberline {2.2}项目执行问题}{5}{}%
+\contentsline {subsection}{\numberline {2.3}团队能力和信任问题}{6}{}%
+\contentsline {subsection}{\numberline {2.4}风险管理}{6}{}%
+\contentsline {subsection}{\numberline {2.5}用户体验和反馈问题}{6}{}%
+\contentsline {subsection}{\numberline {2.6}部署和维护问题}{7}{}%
+\contentsline {section}{\numberline {3}需求分析}{7}{}%
+\contentsline {subsection}{\numberline {3.1}需求规格说明描述}{7}{}%
+\contentsline {paragraph}{系统基本特性}{7}{}%
+\contentsline {paragraph}{邮件支持}{7}{}%
+\contentsline {paragraph}{以院系为单位支持管理功能}{7}{}%
+\contentsline {paragraph}{选课功能}{8}{}%
+\contentsline {paragraph}{LLM支持的自然语言交互功能}{8}{}%
+\contentsline {subsection}{\numberline {3.2}需求中的主要特点和挑战}{8}{}%
+\contentsline {paragraph}{主要特点}{8}{}%
+\contentsline {paragraph}{主要挑战}{9}{}%
+\contentsline {subsection}{\numberline {3.3}系统的稳定性、性能、安全性和可扩展性}{9}{}%
+\contentsline {paragraph}{稳定性}{9}{}%
+\contentsline {paragraph}{性能}{9}{}%
+\contentsline {paragraph}{安全性}{10}{}%
+\contentsline {paragraph}{可扩展性}{10}{}%
+\contentsline {section}{\numberline {4}解决方案概要}{10}{}%
+\contentsline {subsection}{\numberline {4.1}技术栈选择}{10}{}%
+\contentsline {subsection}{\numberline {4.2}日志和监控}{12}{}%
+\contentsline {subsection}{\numberline {4.3}架构设计}{13}{}%
+\contentsline {subsection}{\numberline {4.4}数据库设计}{14}{}%
+\contentsline {section}{\numberline {5}开发计划}{14}{}%
+\contentsline {subsection}{\numberline {5.1}项目时间表}{14}{}%
+\contentsline {subsection}{\numberline {5.2}项目风险管理}{15}{}%
+\contentsline {section}{\numberline {6}功能特点}{16}{}%
+\contentsline {subsection}{\numberline {6.1}登录和用户管理}{16}{}%
+\contentsline {subsubsection}{\numberline {6.1.1}用户注册}{16}{}%
+\contentsline {subsubsection}{\numberline {6.1.2}用户登录}{17}{}%
+\contentsline {subsubsection}{\numberline {6.1.3}角色权限管理}{17}{}%
+\contentsline {subsection}{\numberline {6.2}课程管理}{17}{}%
+\contentsline {subsubsection}{\numberline {6.2.1}课程导入}{17}{}%
+\contentsline {subsubsection}{\numberline {6.2.2}课程调整和停止}{18}{}%
+\contentsline {subsection}{\numberline {6.3}选课策略设置}{18}{}%
+\contentsline {subsubsection}{\numberline {6.3.1}定制化课程参数设置}{18}{}%
+\contentsline {subsubsection}{\numberline {6.3.2}学生名单导入}{18}{}%
+\contentsline {subsection}{\numberline {6.4}选课流程}{19}{}%
+\contentsline {subsubsection}{\numberline {6.4.1}自主课程选择}{19}{}%
+\contentsline {subsubsection}{\numberline {6.4.2}选课过程支持}{19}{}%
+\contentsline {subsubsection}{\numberline {6.4.3}防外挂功能}{19}{}%
+\contentsline {subsection}{\numberline {6.5}智能化体验}{19}{}%
+\contentsline {subsubsection}{\numberline {6.5.1}智能调配}{19}{}%
+\contentsline {subsubsection}{\numberline {6.5.2}实时反馈}{20}{}%
+\contentsline {section}{\numberline {7}用户体验和界面设计}{20}{}%
+\contentsline {subsection}{\numberline {7.1}用户友好的界面设计原则}{20}{}%
+\contentsline {subsection}{\numberline {7.2}屏幕原型}{20}{}%
+\contentsline {subsubsection}{\numberline {7.2.1}登录界面}{20}{}%
+\contentsline {subsubsection}{\numberline {7.2.2}选课界面}{21}{}%
+\contentsline {subsubsection}{\numberline {7.2.3}选课结果页面}{21}{}%
+\contentsline {subsubsection}{\numberline {7.2.4}选课助手界面}{21}{}%
+\contentsline {subsubsection}{\numberline {7.2.5}课程计划管理界面}{21}{}%
+\contentsline {subsubsection}{\numberline {7.2.6}课程设置界面}{21}{}%
+\contentsline {subsection}{\numberline {7.3}用户反馈和改进计划}{22}{}%
+\contentsline {subsubsection}{\numberline {7.3.1}用户反馈渠道}{22}{}%
+\contentsline {subsubsection}{\numberline {7.3.2}改进计划}{22}{}%
+\contentsline {section}{\numberline {8}测试和质量保证}{22}{}%
+\contentsline {subsection}{\numberline {8.1}测试计划}{22}{}%
+\contentsline {subsubsection}{\numberline {8.1.1}测试类型}{22}{}%
+\contentsline {subsubsection}{\numberline {8.1.2}测试用例}{23}{}%
+\contentsline {subsubsection}{\numberline {8.1.3}测试时间表}{23}{}%
+\contentsline {subsection}{\numberline {8.2}质量保证计划}{24}{}%
+\contentsline {section}{\numberline {9}部署和维护}{24}{}%
+\contentsline {subsection}{\numberline {9.1}部署计划}{24}{}%
+\contentsline {subsubsection}{\numberline {9.1.1}系统上线计划}{24}{}%
+\contentsline {subsubsection}{\numberline {9.1.2}环境要求}{25}{}%
+\contentsline {subsection}{\numberline {9.2}维护策略}{25}{}%
+\contentsline {subsubsection}{\numberline {9.2.1}日常维护}{25}{}%
+\contentsline {subsubsection}{\numberline {9.2.2}升级计划}{26}{}%
+\contentsline {section}{\numberline {10}预算和资源}{26}{}%
+\contentsline {subsection}{\numberline {10.1}硬件需求}{26}{}%
+\contentsline {subsection}{\numberline {10.2}软件需求}{26}{}%
+\contentsline {subsection}{\numberline {10.3}人力资源需求}{27}{}%
+\contentsline {subsubsection}{\numberline {10.3.1}项目团队内部人员}{27}{}%
+\contentsline {subsubsection}{\numberline {10.3.2}外包团队人员}{27}{}%
+\contentsline {section}{\numberline {11}推进计划}{27}{}%
+\contentsline {section}{\numberline {12}结论}{27}{}%
+\contentsline {subsection}{\numberline {12.1}项目核心要点}{27}{}%
+\contentsline {subsection}{\numberline {12.2}潜在价值}{28}{}%
