@@ -81,7 +81,7 @@
 \contentsline {subsection}{\numberline {10.2}软件需求}{27}{}%
 \contentsline {subsection}{\numberline {10.3}人力资源需求}{27}{}%
 \contentsline {subsubsection}{\numberline {10.3.1}项目团队内部人员}{27}{}%
-\contentsline {subsubsection}{\numberline {10.3.2}外包团队人员}{27}{}%
+\contentsline {subsubsection}{\numberline {10.3.2}外包团队人员}{28}{}%
 \contentsline {section}{\numberline {11}推进计划}{28}{}%
 \contentsline {section}{\numberline {12}结论}{28}{}%
 \contentsline {subsection}{\numberline {12.1}项目核心要点}{28}{}%
