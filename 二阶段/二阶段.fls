@@ -1,0 +1,5 @@
+PWD d:/liveNJU/course/gradeThree/软件质量与管理/SoftwareQualityAssurance/二阶段
+INPUT d:/professionalField/aboutText/texlive/2023/texmf.cnf
+INPUT d:/professionalField/aboutText/texlive/2023/texmf-dist/web2c/texmf.cnf
+INPUT d:/professionalField/aboutText/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT d:/liveNJU/course/gradeThree/软件质量与管理/SoftwareQualityAssurance/二阶段/二阶段.tex
