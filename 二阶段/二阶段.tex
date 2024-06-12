@@ -606,6 +606,12 @@
 	\item 进行回归测试：在每次发布新版本之前进行回归测试，确保新功能的添加不会对现有功能造成影响。
 \end{itemize}
 
+\subsection{A/FR指标计算}
+A/FR（Appraisal/Failure Ratio）是软件工程中的一个重要质量指标，用于评估质检成本与失效成本之间的关系。我们对项目的A/FR指标计算如下： \\
+1. 质检成本： 设计评审时间 + 代码评审时间 = 24.2 + 57.6 = 81.8人时 \\
+2. 失效成本：设计阶段遗留缺陷时间 + 编码阶段遗留缺陷时间 + 代码评审阶段遗留缺陷时间 + 测试阶段遗留缺陷时间 = 14 + 92 + 12 + 5 = 123 人时 \\
+3. A/FR指标： A/FR = 81.8/123 = 0.665
+
 
 \section{部署和维护}
 \subsection{部署计划}
@@ -677,6 +683,13 @@
 
 \subsubsection{外包团队人员}
 考虑到该选课系统需要在 2 周内交付一个产物以赶上本地的选课开始，所以在项目的初期需要投入 4-6 人的外包人力资源来保证产物的交付。
+
+\subsection{成本量化图表}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{成本.jpg}
+\end{figure}
+
 
 \section{推进计划}
 \begin{itemize}
