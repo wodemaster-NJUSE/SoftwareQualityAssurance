@@ -116,22 +116,51 @@
 	\item \textbf{用户角色：} 学生、管理员。
 	\item \textbf{用户登录和身份验证要求：} 用户需通过用户名和密码进行登录验证。
 	\item \textbf{邮件支持：} 系统支持通过电子邮件发送选课通知、选课结果等信息至学生邮箱（软件学院），并支持用户注册、密码取回等功能。
+	\begin{itemize}
+		\item \textbf{邮件通知：} 可以发送选课通知、选课结果等信息至学生邮箱（软件学院）。
+		\item \textbf{邮件验证：} 用户注册、密码取回等也可以通过邮件发送。
+	\end{itemize}
+	\item \textbf{估算}
+	\begin{tabular}{|c|c|c|c|}
+		\hline
+		功能模块 & 功能点 & 代码行数 & 时间资源(人时) \\
+		\hline
+		登录注册于权限管理 & 19 & 203 & 10 \\
+		\hline
+	\end{tabular}
 \end{itemize}
 
-\paragraph{邮件支持}
+\paragraph{UI设计}
 \begin{itemize}
-	\item \textbf{邮件通知：} 可以发送选课通知、选课结果等信息至学生邮箱（软件学院）。
-	\item \textbf{邮件验证：} 用户注册、密码取回等也可以通过邮件发送。
+	\item \textbf{美观 UI 设计} 为用户提供简洁美观的交互
+	\item \textbf{估算}
+	\begin{tabular}{|c|c|c|c|}
+		\hline
+		功能模块 & 功能点 & 代码行数 & 时间资源(人时) \\
+		\hline
+		UI 设计 & 55 & 974 & 47 \\
+		\hline
+	\end{tabular}
 \end{itemize}
 
 \paragraph{以院系为单位支持管理功能}
 \begin{itemize}
-	\item \textbf{支持导入、保存和修改课程计划：} 导入的格式由excel 模板给出，该模板可以下载。
-	\item \textbf{支持管理员对课程进行设置：} 管理员可以设置选课人数上限、先修课程限制、选课者年级（不允许提前两个学年选课），以及设定课程的性质、介绍信息、课程目标、课程内容、教材、考试方式 等
-	\item \textbf{其他课程设置要求}
+	\item \textbf{支持导入、保存和修改课程计划}\\ 导入的格式由excel 模板给出，该模板可以下载。
+	\item \textbf{支持管理员对课程进行设置}\\ 管理员可以设置选课人数上限、先修课程限制、选课者年级（不允许提前两个学年选课），以及设定课程的性质、介绍信息、课程目标、课程内容、教材、考试方式 等
+	\item \textbf{其他课程设置要求}\\
 	(1) 对每个学生,管理员可设定可选课程数量上限和必选课程数量下限\\
 	(2) 设定选课期限,在期限内可以选课，超出期限则不能选课\\
 	(3) 对特殊情况的学生可以特殊处理。例如，重修、辅修等依据学校规则处理\\
+	\item \textbf{估算}
+	\begin{tabular}{|c|c|c|c|}
+		\hline
+		功能模块 & 功能点 & 代码行数 & 时间资源(人时) \\
+		\hline
+		课程管理 & 30 & 354 & 24 \\
+		\hline
+		Excel导入 & 8 & 96 & 4 \\
+		\hline
+	\end{tabular}
 \end{itemize}
 
 \paragraph{选课功能}
@@ -139,13 +168,32 @@
 	\item \textbf{选课：} 学生可根据管理员设置的要求和规则，选修自己感兴趣的课程
 	\item \textbf{选课助手功能：} 提供基于LLM的选课助手功能，支持用户以自然语言交互获取课程相关信息。对于系统中没有的信息，要明确说明信息不清楚。
 	\item \textbf{课表生成：} 学生选定课程后，对照课程计划，为学生生成课表
+	\item \textbf{估算}
+	\begin{tabular}{|c|c|c|c|}
+		\hline
+		功能模块 & 功能点 & 代码行数 & 时间资源(人时) \\
+		\hline
+		选课功能 & 44 & 605 & 36 \\
+		\hline
+	\end{tabular}
 \end{itemize}
 
 \paragraph{LLM支持的自然语言交互功能}
 \begin{itemize}
 	\item \textbf{允许管理员用自然语言完成操作：} 管理员可以通过自然语言，将某一位同学加入某个班（课程），以及通过自然语言修改某一门课程的设置好的信息
 	\item \textbf{允许学生用自然语言完成操作：} 学生可以通过自然语言, 查找课程信息, 选择某个课程等
+	\item \textbf{估算}
+	\begin{tabular}{|c|c|c|c|}
+		\hline
+		功能模块 & 功能点 & 代码行数 & 时间资源(人时) \\
+		\hline
+		LLM智能化 & 31 & 798 & 25 \\
+		\hline
+	\end{tabular}
 \end{itemize}
+
+
+
 
 
 \subsection{需求中的主要特点和挑战}
@@ -175,6 +223,7 @@
 	\item \textbf{监控和警报：} 引入自动化的监控和警报系统，能够实时监测系统运行状态，及时发现异常并采取相应措施，保障系统的稳定性。
 	性能
 \end{itemize}
+
 
 \paragraph{性能}
 \begin{itemize}
