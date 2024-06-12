@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.10)  12 JUN 2024 21:27
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.10)  12 JUN 2024 21:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -511,11 +511,15 @@ File: 日程2.png Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[16] [17] [18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28] [29]
+[16] [17] [18] [19] [20] [21]
+Overfull \hbox (168.6312pt too wide) in paragraph at lines 495--514
+[][] 
+ []
+
+[22] [23] [24] [25] [26] [27] [28] [29] [30]
 File: 成本.jpg Graphic file (type bmp)
 <成本.jpg>
- [30]
-[31] [32] (./二阶段.aux)
+ [31] [32] [33] (./二阶段.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.41063pt have occurred.
@@ -530,4 +534,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  89i,6n,97p,342b,299s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 二阶段.pdf (32 pages).
+Output written on 二阶段.pdf (33 pages).
